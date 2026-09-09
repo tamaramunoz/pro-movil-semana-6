@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Infracción"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etFolioEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Folio"
+        android:enabled="false"
+        android:focusable="false" />
+
+    <EditText
+        android:id="@+id/etInspectorRutEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inspector RUT" />
+
+    <EditText
+        android:id="@+id/etLocalNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Commercial Local Name" />
+
+    <EditText
+        android:id="@+id/etAddressEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/etViolationEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Violation Committed" />
+
+    <Button
+        android:id="@+id/btnUpdateViolation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar cambios"
+        android:backgroundTint="#333652"
+        android:padding="24dp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnShareViolation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir información de infracción"
+        android:backgroundTint="#333652"
+        android:padding="24dp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

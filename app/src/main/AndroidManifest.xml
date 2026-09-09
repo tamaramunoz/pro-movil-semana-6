@@ -21,6 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".provider.InfraccionProvider"
+            android:authorities="com.example.herpm1305.provider.infraccionprovider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".EditActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

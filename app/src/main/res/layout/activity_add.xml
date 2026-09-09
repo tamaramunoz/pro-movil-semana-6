@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Infracción"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etRutInspector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RUT del Inspector" />
+
+    <EditText
+        android:id="@+id/etNombreLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Local Comercial" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección" />
+
+    <EditText
+        android:id="@+id/etInfraccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Infracción Cometida" />
+
+    <Button
+        android:id="@+id/btnGuardarInfraccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#333652"
+        android:padding="24dp"
+        android:text="Guardar folio infracción"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
